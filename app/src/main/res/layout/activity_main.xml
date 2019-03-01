@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aaaaaa"
+        android:gravity="center"
+        android:onClick="onReport"
+        android:padding="8dp"
+        android:text="DEMO_报告" />
+
+    <TextView
+        android:id="@+id/tv_register_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#aaaaaa"
+        android:gravity="center"
+        android:onClick="onRegisterLink"
+        android:padding="8dp"
+        android:text="DEMO_注册链接" />
+
+    <TextView
+        android:id="@+id/tv_vip_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#aaaaaa"
+        android:gravity="center"
+        android:onClick="onVipManager"
+        android:padding="8dp"
+        android:text="DEMO_会员管理" />
+
+    <TextView
+        android:id="@+id/tv_dayly_report"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#aaaaaa"
+        android:gravity="center"
+        android:onClick="onDaylyReport"
+        android:padding="8dp"
+        android:text="DEMO_今日汇总报表" />
+</LinearLayout>

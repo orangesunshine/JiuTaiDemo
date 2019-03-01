@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleChartView">
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="text" format="string" />
+        <attr name="noteColor" format="color" />
+        <attr name="winColor" format="color" />
+        <attr name="profitlossColor" format="color" />
+        <attr name="notebgColor" format="color" />
+        <attr name="sweepAngle" format="float" />
+    </declare-styleable>
+</resources>
